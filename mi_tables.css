@@ -14,7 +14,18 @@
 */
 
 /* Table Styles */
+/* this gradient is a linear gradient type, which means that the gradient effect is going to be from top to the bottom.
+the color is a light baby blue with a grey shade to it. and it has black in it.*/
+table {
+    background: linear-gradient(rgb(190,215,255), black);
+    border: 5px solid grey;
+}
 
+/* the border of the td and the th are going to be a  */
+th, td {
+    border: 3px solid grey;
+
+}
 
 
 /* Column Styles */
