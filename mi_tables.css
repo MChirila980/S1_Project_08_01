@@ -29,7 +29,7 @@ th, td {
     line-height: 1.4em;
     padding: 8px;
 }
-/*  */
+/* the th has a background of black and the color is a light water blue. */
 
 th {
     background: black;
@@ -37,7 +37,7 @@ th {
     font-weight: normal;
 }
 
-/*  */
+/* the color is white and the font-size of the tr is 0.9em and the text is alighned at the top. */
 
 td {
     color: white;
@@ -61,13 +61,13 @@ col.dataCols {
 
 
 /* Table Header Styles */
-/*  */
+/*  the height for the thead and the tr is 60 px. */
 
 thead tr {
     height: 60px;
 }
 
-/* phseudo class : */
+/* phseudo class : its a first of type and its for the thead tr, the background is made to be transparent */
 
 thead tr:first-of-type th:not(:first-of-type) {
     background: transparent;
